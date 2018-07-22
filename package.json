@@ -9,7 +9,9 @@
     "build": "gulp build",
     "build-preview": "gulp build-preview",
     "start": "gulp server",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -47,12 +49,14 @@
     "uncss": "^0.15.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
-    "whatwg-fetch": "^1.0.0"
+    "whatwg-fetch": "^1.0.0",
+    "snyk": "^1.88.0"
   },
   "devDependencies": {
     "gulp-inject": "^4.2.0",
     "gulp-svgmin": "^1.2.3",
     "gulp-svgstore": "^6.1.0",
     "svg-sprite-loader": "^0.1.2"
-  }
+  },
+  "snyk": true
 }
