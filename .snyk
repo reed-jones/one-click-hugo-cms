@@ -1,8 +1,33 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.13.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:lodash:20180130':
     - browser-sync > easy-extender > lodash:
         patched: '2018-07-03T01:46:44.873Z'
+  'npm:debug:20170905':
+    - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2018-12-04T05:26:58.907Z'
+  'npm:hoek:20180212':
+    - postcss-import > pkg-resolve > jspm > request > hawk > hoek:
+        patched: '2018-12-04T05:26:58.907Z'
+    - postcss-import > pkg-resolve > jspm > request > hawk > boom > hoek:
+        patched: '2018-12-04T05:26:58.907Z'
+    - postcss-import > pkg-resolve > jspm > request > hawk > sntp > hoek:
+        patched: '2018-12-04T05:26:58.907Z'
+    - postcss-import > pkg-resolve > jspm > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T05:26:58.907Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-12-04T05:26:58.907Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-12-04T05:26:58.907Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-12-04T05:26:58.907Z'
+  'npm:ms:20170412':
+    - browser-sync > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2018-12-04T05:26:58.907Z'
+  'npm:tunnel-agent:20170305':
+    - postcss-import > pkg-resolve > jspm > request > tunnel-agent:
+        patched: '2018-12-04T05:26:58.907Z'
