@@ -11,7 +11,8 @@
     "start": "gulp server",
     "lint": "eslint src",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -27,7 +28,7 @@
     "babel-register": "^6.23.0",
     "browser-sync": "^2.26.0",
     "css-loader": "^1.0.0",
-    "cssnano": "^3.10.0",
+    "cssnano": "^4.0.0",
     "date-fns": "^1.27.2",
     "eslint": "^4.18.2",
     "eslint-plugin-import": "^1.16.0",
@@ -50,7 +51,7 @@
     "url-loader": "^0.6.0",
     "webpack": "^2.2.0",
     "whatwg-fetch": "^1.0.0",
-    "snyk": "^1.113.0"
+    "snyk": "^1.171.1"
   },
   "devDependencies": {
     "gulp-inject": "^4.2.0",
