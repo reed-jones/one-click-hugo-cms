@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -395,3 +395,6 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-06-05T03:33:11.776Z'
+  SNYK-JS-LODASH-567746:
+    - gulp-babel > babel-core > babel-register > lodash:
+        patched: '2023-05-25T09:46:28.016Z'
