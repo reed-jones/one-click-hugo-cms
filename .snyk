@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -193,6 +193,18 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > tar-pack > debug:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > debug:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          debug
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > debug:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > debug
   'npm:hoek:20180212':
     - postcss-import > pkg-resolve > jspm > request > hawk > hoek:
         patched: '2018-12-04T05:26:58.907Z'
@@ -218,6 +230,24 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - uncss > jsdom > request > hawk > sntp > hoek:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > hoek:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          hoek
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > boom > hoek:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          boom > hoek
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > hawk > sntp > hoek:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request > hawk >
+          sntp > hoek
   'npm:minimatch:20160620':
     - gulp > vinyl-fs > glob-stream > minimatch:
         patched: '2018-12-04T05:26:58.907Z'
@@ -356,6 +386,12 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > tar-pack > debug > ms:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > debug > ms:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > debug > ms
   'npm:tunnel-agent:20170305':
     - postcss-import > pkg-resolve > jspm > request > tunnel-agent:
         patched: '2018-12-04T05:26:58.907Z'
@@ -363,6 +399,12 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > tunnel-agent:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > tunnel-agent:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request >
+          tunnel-agent
   SNYK-JS-AXIOS-174505:
     - browser-sync > localtunnel > axios:
         patched: '2019-06-05T03:33:11.776Z'
@@ -377,6 +419,22 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - gulp > vinyl-fs > glob-stream > extend:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > liftoff > extend:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > liftoff > extend
+    - postcss-import > pkg-resolve > jspm > proper-lockfile > extend:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > proper-lockfile > extend
+    - postcss-import > pkg-resolve > jspm > request > extend:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > request > extend
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > extend:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:extend:20180424'
+        path: postcss-import > pkg-resolve > jspm > jspm-github > request > extend
   'npm:moment:20170905':
     - netlify-cms > moment:
         patched: '2019-06-05T03:33:11.776Z'
@@ -385,6 +443,14 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > qs:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > request > qs:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:qs:20170213'
+        path: postcss-import > pkg-resolve > jspm > request > qs
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > qs:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:qs:20170213'
+        path: postcss-import > pkg-resolve > jspm > jspm-github > request > qs
   'npm:stringstream:20180511':
     - uncss > jsdom > request > stringstream:
         patched: '2019-06-05T03:33:11.776Z'
@@ -395,3 +461,50 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-06-05T03:33:11.776Z'
+    - postcss-import > pkg-resolve > jspm > request > tough-cookie:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:tough-cookie:20170905'
+        path: postcss-import > pkg-resolve > jspm > request > tough-cookie
+    - postcss-import > pkg-resolve > jspm > jspm-github > request > tough-cookie:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          postcss-import > pkg-resolve > jspm > jspm-github > request >
+          tough-cookie
+  SNYK-JS-LODASH-567746:
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-register > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-register > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-generator > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-generator > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-generator > babel-types > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-generator > babel-types > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > lodash
+    - postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2023-09-01T13:05:52.934Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          postcss-import > pkg-resolve > jspm > systemjs-builder > babel-core >
+          babel-helpers > babel-template > babel-traverse > lodash
