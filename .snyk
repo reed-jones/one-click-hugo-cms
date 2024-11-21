@@ -395,3 +395,8 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-06-05T03:33:11.776Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T05:23:40.747Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T05:23:40.747Z'
