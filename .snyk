@@ -395,3 +395,36 @@ patch:
         patched: '2019-06-05T03:33:11.776Z'
     - netlify-cms > fsevents > node-pre-gyp > request > tough-cookie:
         patched: '2019-06-05T03:33:11.776Z'
+  SNYK-JS-LODASH-450202:
+    - netlify-cms > react-sortable-hoc > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - browser-sync > easy-extender > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - css-loader > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - webpack > async > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
+    - netlify-cms > redux-notifications > react-redux > lodash:
+        patched: '2019-07-04T05:23:49.433Z'
